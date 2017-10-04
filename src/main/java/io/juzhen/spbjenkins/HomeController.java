@@ -13,6 +13,6 @@ public class HomeController {
     @RequestMapping("/")
     @ResponseBody
     String home() {
-        return "Hello World!";
+        return "Hello World, Jenkins !";
     }
 }
